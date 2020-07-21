@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- * binary_tree_size - measures the size of a binary tree.
+ * count_nodes - measures the size of a binary tree.
  * @tree: A binary tree.
  * Return: returns the size of the binary tree.
  */
