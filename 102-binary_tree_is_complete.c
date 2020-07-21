@@ -49,7 +49,7 @@ int binary_tree_is_complete(const binary_tree_t *tree)
 	int index = 0;
 	int size = t_size(tree);
 
-	if (!tree || (!tree->left && !tree->right))
+	if (!tree)
 		return (0);
 
 	return (checkComplete(tree, index, size));
